@@ -253,6 +253,10 @@ function Editor({
     }
 
     editorRef.current!.dispose();
+
+    editorRef.current = null;
+    preventCreation.current = false;
+    setIsEditorReady(false);
   }
 
   return (
