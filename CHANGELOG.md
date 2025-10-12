@@ -1,5 +1,13 @@
 ### Versions
 
+## 4.8.0-rc.0
+
+- package: update @monaco-editor/loader to the latest (v1.6.0) version (this uses monaco-editor v0.54.0)
+- package: update all dependencies to the latest versions
+- playground: update all dependencies to the latest versions
+- PR: https://github.com/suren-atoyan/monaco-react/pull/752
+- PR: https://github.com/suren-atoyan/monaco-react/pull/738
+
 ## 4.7.0
 
 - package: update @monaco-editor/loader to the latest (v1.5.0) version (this uses monaco-editor v0.52.2)
