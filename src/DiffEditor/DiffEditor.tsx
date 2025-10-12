@@ -34,7 +34,7 @@ function DiffEditor({
   const [isMonacoMounting, setIsMonacoMounting] = useState(true);
   const editorRef = useRef<MonacoDiffEditor | null>(null);
   const monacoRef = useRef<Monaco | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const onMountRef = useRef(onMount);
   const beforeMountRef = useRef(beforeMount);
   const preventCreation = useRef(false);

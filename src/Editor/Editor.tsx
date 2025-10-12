@@ -43,10 +43,10 @@ function Editor({
   const [isMonacoMounting, setIsMonacoMounting] = useState(true);
   const monacoRef = useRef<Monaco | null>(null);
   const editorRef = useRef<editor.IStandaloneCodeEditor | null>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
   const onMountRef = useRef(onMount);
   const beforeMountRef = useRef(beforeMount);
-  const subscriptionRef = useRef<IDisposable>();
+  const subscriptionRef = useRef<IDisposable | undefined>(undefined);
   const valueRef = useRef(value);
   const previousPath = usePrevious(path);
   const preventCreation = useRef(false);

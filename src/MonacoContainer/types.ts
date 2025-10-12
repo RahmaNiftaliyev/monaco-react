@@ -5,7 +5,7 @@ export type ContainerProps = {
   height: number | string;
   isEditorReady: boolean;
   loading: ReactNode | string;
-  _ref: RefObject<HTMLDivElement>;
+  _ref: RefObject<HTMLDivElement | null>;
   className?: string;
   wrapperProps?: object;
 };
