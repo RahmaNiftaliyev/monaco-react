@@ -10,9 +10,4 @@ export default defineConfig({
     setupFiles: ['./setupTests.ts'],
     exclude: ['**/node_modules/**', '**/demo/**', '**/playground/**'],
   },
-  resolve: {
-    alias: {
-      '@monaco-editor/loader': '@monaco-editor/loader/lib/es/index.js',
-    },
-  },
 });
