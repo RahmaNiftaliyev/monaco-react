@@ -1,5 +1,9 @@
 ### Versions
 
+## 4.8.0-rc.2
+
+- package: update @monaco-editor/loader to the latest (v1.6.1)
+
 ## 4.8.0-rc.1
 
 - PR: add missing #738
