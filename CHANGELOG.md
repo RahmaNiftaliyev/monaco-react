@@ -3,6 +3,7 @@
 ## 4.8.0-rc.2
 
 - package: update @monaco-editor/loader to the latest (v1.6.1)
+- vitest: remove resolve alias
 
 ## 4.8.0-rc.1
 
